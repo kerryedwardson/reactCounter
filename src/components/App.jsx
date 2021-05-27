@@ -9,13 +9,13 @@ function App() {
   function decrease() {
     setCount(count - 1);
   }
+
   return (
-    <div className="container">
+    <div class="container">
       <h1>{count}</h1>
-      <button onClick={increase}>+</button>
       <button onClick={decrease}>-</button>
+      <button onClick={increase}>+</button>
     </div>
   );
 }
-
 export default App;
